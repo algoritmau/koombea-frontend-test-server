@@ -1,0 +1,55 @@
+{
+  "articles": [
+    {
+	    "id": 1,
+    	"title": "Should I work remotely or will it put a strain on my long-term career?",
+    	"subtitle": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+    	"categories": ["React.js", "JavaScript", "Performance"],
+    	"author": {
+		    "name": "Alice Cooper",
+    		"imageURL": "URL",
+		    "imageAltText": "Image alt text"
+    	},
+    	"heroImage": {
+		    "url": "url",
+    		"altText": "alt text",
+		    "caption": "caption"
+    	},
+    	"body": "post body"
+    },
+    {
+	    "id": 2,
+    	"title": "Infinite Scrolling: When to Use It, When to Avoid It",
+    	"subtitle": "Infinite scrolling minimizes interaction costs and increases user engagement, but it isn’t a good fit for every website. For some, pagination or a Load More button will be a better solution.",
+    	"categories": ["UX Design", "Design Patterns"],
+    	"author": {
+		    "name": "Tim Neusesser",
+    		"imageURL": "URL",
+		    "imageAltText": "Image alt text"
+    	},
+    	"heroImage": {
+		    "url": "url",
+    		"altText": "alt text",
+		    "caption": "caption"
+    	},
+    	"body": "Infinite scrolling is a listing-page design approach which loads content continuously as the user scrolls down. It eliminates the need for pagination  — breaking content up into multiple pages.\nSince its invention in 2006, infinite scrolling experienced a steep growth in popularity. Today, it is mostly used on websites and apps with a flat structure, where content streams constantly and is equally relevant to the user — for example, social-media sites (e.g., TikTok, Instagram, Twitter) but also news or ecommerce websites (e.g., Apple News, Nike.com). What are the benefits and limitations of infinite scrolling?\nSince its invention, some variations to classic infinite scrolling (as described above) have been developed. One variant requires the user to explicitly press a Load More or See More button to see more content added to the bottom of a page. Another variant breaks down the infinite scroll into pages that serve as valuable landmarks for orientation and enable users to quickly navigate the content, as they can jump from one page to the next one.\n"
+    },
+    {
+	    "id": 3,
+    	"title": "A Guide to Using User-Experience Research Methods",
+    	"subtitle": "Modern day UX research methods answer a wide range of questions. To help you know when to use which user research method, each of 20 methods is mapped across 3 dimensions and over time within a typical product-development process.",
+    	"categories": ["Research Methods", "User Testing", "Strategy"],
+    	"author": {
+		    "name": "Kelley Gordon",
+    		"imageURL": "URL",
+		    "imageAltText": "Image alt text"
+    	},
+    	"heroImage": {
+		    "url": "url",
+    		"altText": "alt text",
+		    "caption": "caption"
+    	},
+    	"body": "Infinite scrolling is a listing-page design approach which loads content continuously as the user scrolls down. It eliminates the need for pagination  — breaking content up into multiple pages.\nSince its invention in 2006, infinite scrolling experienced a steep growth in popularity. Today, it is mostly used on websites and apps with a flat structure, where content streams constantly and is equally relevant to the user — for example, social-media sites (e.g., TikTok, Instagram, Twitter) but also news or ecommerce websites (e.g., Apple News, Nike.com). What are the benefits and limitations of infinite scrolling?\nSince its invention, some variations to classic infinite scrolling (as described above) have been developed. One variant requires the user to explicitly press a Load More or See More button to see more content added to the bottom of a page. Another variant breaks down the infinite scroll into pages that serve as valuable landmarks for orientation and enable users to quickly navigate the content, as they can jump from one page to the next one.\n"
+    },
+  ]
+}

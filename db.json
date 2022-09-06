@@ -7,7 +7,7 @@
       "categories": ["React.js", "JavaScript", "Performance"],
       "author": {
         "name": "Alice Cooper",
-        "avatarUrl": "/assets/avatars/alice-cooper-avatar.png",
+        "avatarUrl": "/assets/avatars/alice-cooper-avatar.png"
       },
       "publishDate": "2020-01-01",
       "heroImage": {
@@ -42,7 +42,7 @@
       "categories": ["npm", "Open Source", "Tooling"],
       "author": {
         "name": "Dan Abramov",
-        "avatarUrl": "/assets/avatars/dan-abramov-avatar.png",
+        "avatarUrl": "/assets/avatars/dan-abramov-avatar.png"
       },
       "publishDate": "2021-07-12",
       "heroImage": {
@@ -50,7 +50,7 @@
         "altText": "alt text",
         "caption": "caption"
       },
-      "body": "Finally, if there is no way to gracefully upgrade the tree, you could try npm audit fix --force. This is supposed to be used if database-layer doesn’t accept the new version of network-utility and also doesn’t release an update to accept it. So you’re kind of taking matters in your own hands, potentially risking breaking changes. Seems like a reasonable option to have.\nThis is how npm audit is supposed to work in theory.\mAs someone wise said, in theory there is no difference between theory and practice. But in practice there is. And that’s where all the fun starts.\nWhy is npm audit broken?\nLet’s see how this works in practice. I’ll use Create React App for my testing.\nIf you’re not familiar with it, it’s an integration facade that combines multiple other tools, including Babel, webpack, TypeScript, ESLint, PostCSS, Terser, and others. Create React App takes your JavaScript source code and converts it into a static HTML+JS+CSS folder. Notably, it does not produce a Node.js app.\nLet’s create a new project!"
+      "body": "Finally, if there is no way to gracefully upgrade the tree, you could try npm audit fix --force. This is supposed to be used if database-layer doesn’t accept the new version of network-utility and also doesn’t release an update to accept it. So you’re kind of taking matters in your own hands, potentially risking breaking changes. Seems like a reasonable option to have.\nThis is how npm audit is supposed to work in theory.\nAs someone wise said, in theory there is no difference between theory and practice. But in practice there is. And that’s where all the fun starts.\nWhy is npm audit broken?\nLet’s see how this works in practice. I’ll use Create React App for my testing.\nIf you’re not familiar with it, it’s an integration facade that combines multiple other tools, including Babel, webpack, TypeScript, ESLint, PostCSS, Terser, and others. Create React App takes your JavaScript source code and converts it into a static HTML+JS+CSS folder. Notably, it does not produce a Node.js app.\nLet’s create a new project!"
     },
     {
       "id": "a-guide-to-using-user-experience-research-methods",
@@ -59,7 +59,7 @@
       "categories": ["Research Methods", "User Testing", "Strategy"],
       "author": {
         "name": "Kelley Gordon",
-        "avatarUrl": "/assets/avatars/kelley-gordon-avatar.png",
+        "avatarUrl": "/assets/avatars/kelley-gordon-avatar.png"
       },
       "publishDate": "2021-11-06",
       "heroImage": {
@@ -76,14 +76,20 @@
       "password": "puaHv704pNqB=rQs",
       "name": "Alice Cooper",
       "avatarUrl": "/assets/avatars/alice-cooper-avatar.png",
-      "favoriteArticles": ["should-I-work-remotely-or-will-it-put-a-strain-on-my-long-term-career", "infinite-scrolling-when-to-use-it-when-to-avoid-it"]
+      "favoriteArticles": [
+        "should-I-work-remotely-or-will-it-put-a-strain-on-my-long-term-career",
+        "infinite-scrolling-when-to-use-it-when-to-avoid-it"
+      ]
     },
     {
       "id": "kgordon@landkit.blog",
       "password": "DK5zmJz3RicZ0ts=",
       "name": "Kelley Gordon",
       "avatarUrl": "/assets/avatars/kelley-gordon-avatar.png",
-      "favoriteArticles": ["npm-audit-broken-by-design", "a-guide-to-using-user-experience-research-methods"]
+      "favoriteArticles": [
+        "npm-audit-broken-by-design",
+        "a-guide-to-using-user-experience-research-methods"
+      ]
     }
   ]
 }

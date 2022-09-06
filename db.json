@@ -26,13 +26,13 @@
       "overview": "Infinite scrolling minimizes interaction costs and increases user engagement, but it isn’t a good fit for every website. For some, pagination or a Load More button will be a better solution.",
       "categories": ["UX Design", "Design Patterns"],
       "author": {
-        "name": "Bob Dylan",
+        "name": "Jane Pickford",
         "avatar": {
-          "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-          "alt": "Bob Dylan's avatar"
+          "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
         }
       },
       "publishDate": "2020-03-21",
+      "alt": "Jane Pickford's avatar",
       "heroImage": {
         "url": "url",
         "altText": "alt text",
@@ -69,7 +69,8 @@
       "avatar": {
         "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
         "alt": "Alice Cooper's avatar"
-      }
+      },
+      "favoriteArticles": [1, 2]
     },
     {
       "id": "kgordon@landkit.blog",
@@ -78,7 +79,8 @@
       "avatar": {
         "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
         "alt": "Kelley Gordon's avatar"
-      }
+      },
+      "favoriteArticles": [2, 3, 4]
     }
   ]
 }

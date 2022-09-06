@@ -60,5 +60,27 @@
       },
       "body": "Infinite scrolling is a listing-page design approach which loads content continuously as the user scrolls down. It eliminates the need for pagination  — breaking content up into multiple pages.\nSince its invention in 2006, infinite scrolling experienced a steep growth in popularity. Today, it is mostly used on websites and apps with a flat structure, where content streams constantly and is equally relevant to the user — for example, social-media sites (e.g., TikTok, Instagram, Twitter) but also news or ecommerce websites (e.g., Apple News, Nike.com). What are the benefits and limitations of infinite scrolling?\nSince its invention, some variations to classic infinite scrolling (as described above) have been developed. One variant requires the user to explicitly press a Load More or See More button to see more content added to the bottom of a page. Another variant breaks down the infinite scroll into pages that serve as valuable landmarks for orientation and enable users to quickly navigate the content, as they can jump from one page to the next one.\n"
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "acooper@landkit.blog",
+      "password": "password",
+      "name": "Alice Cooper",
+      "avatar": {
+        "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+        "alt": "Alice Cooper's avatar"
+      }
+    },
+    {
+      "id": 2,
+      "email": "kgordon@landkit.blog",
+      "password": "password",
+      "name": "Kelley Gordon",
+      "avatar": {
+        "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
+        "alt": "Kelley Gordon's avatar"
+      }
+    }
   ]
 }

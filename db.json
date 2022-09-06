@@ -3,13 +3,14 @@
     {
       "id": 1,
       "title": "Should I work remotely or will it put a strain on my long-term career?",
-      "subtitle": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "overview": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
       "categories": ["React.js", "JavaScript", "Performance"],
       "author": {
         "name": "Alice Cooper",
         "imageURL": "URL",
         "imageAltText": "Image alt text"
       },
+      "publishDate": "2020-01-01",
       "heroImage": {
         "url": "url",
         "altText": "alt text",
@@ -20,13 +21,14 @@
     {
       "id": 2,
       "title": "Infinite Scrolling: When to Use It, When to Avoid It",
-      "subtitle": "Infinite scrolling minimizes interaction costs and increases user engagement, but it isn’t a good fit for every website. For some, pagination or a Load More button will be a better solution.",
+      "overview": "Infinite scrolling minimizes interaction costs and increases user engagement, but it isn’t a good fit for every website. For some, pagination or a Load More button will be a better solution.",
       "categories": ["UX Design", "Design Patterns"],
       "author": {
         "name": "Tim Neusesser",
         "imageURL": "URL",
         "imageAltText": "Image alt text"
       },
+      "publishDate": "2020-03-21",
       "heroImage": {
         "url": "url",
         "altText": "alt text",
@@ -37,13 +39,14 @@
     {
       "id": 3,
       "title": "A Guide to Using User-Experience Research Methods",
-      "subtitle": "Modern day UX research methods answer a wide range of questions. To help you know when to use which user research method, each of 20 methods is mapped across 3 dimensions and over time within a typical product-development process.",
+      "overview": "Modern day UX research methods answer a wide range of questions. To help you know when to use which user research method, each of 20 methods is mapped across 3 dimensions and over time within a typical product-development process.",
       "categories": ["Research Methods", "User Testing", "Strategy"],
       "author": {
         "name": "Kelley Gordon",
         "imageURL": "URL",
         "imageAltText": "Image alt text"
       },
+      "publishDate": "2021-11-06",
       "heroImage": {
         "url": "url",
         "altText": "alt text",

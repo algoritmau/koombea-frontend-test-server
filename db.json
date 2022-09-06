@@ -63,8 +63,7 @@
   ],
   "users": [
     {
-      "id": 1,
-      "email": "acooper@landkit.blog",
+      "id": "acooper@landkit.blog",
       "password": "password",
       "name": "Alice Cooper",
       "avatar": {
@@ -73,8 +72,7 @@
       }
     },
     {
-      "id": 2,
-      "email": "kgordon@landkit.blog",
+      "id": "kgordon@landkit.blog",
       "password": "password",
       "name": "Kelley Gordon",
       "avatar": {

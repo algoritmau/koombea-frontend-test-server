@@ -7,10 +7,7 @@
       "categories": ["React.js", "JavaScript", "Performance"],
       "author": {
         "name": "Alice Cooper",
-        "avatar": {
-          "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-          "alt": "Alice Cooper's avatar"
-        }
+        "avatarUrl": "/assets/avatars/alice-cooper-avatar.png",
       },
       "publishDate": "2020-01-01",
       "heroImage": {
@@ -27,9 +24,7 @@
       "categories": ["UX Design", "Design Patterns"],
       "author": {
         "name": "Jane Pickford",
-        "avatar": {
-          "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"
-        }
+        "avatarUrl": "/assets/avatars/jane-pickford-avatar.png"
       },
       "publishDate": "2020-03-21",
       "alt": "Jane Pickford's avatar",
@@ -41,16 +36,30 @@
       "body": "Infinite scrolling is a listing-page design approach which loads content continuously as the user scrolls down. It eliminates the need for pagination  — breaking content up into multiple pages.\nSince its invention in 2006, infinite scrolling experienced a steep growth in popularity. Today, it is mostly used on websites and apps with a flat structure, where content streams constantly and is equally relevant to the user — for example, social-media sites (e.g., TikTok, Instagram, Twitter) but also news or ecommerce websites (e.g., Apple News, Nike.com). What are the benefits and limitations of infinite scrolling?\nSince its invention, some variations to classic infinite scrolling (as described above) have been developed. One variant requires the user to explicitly press a Load More or See More button to see more content added to the bottom of a page. Another variant breaks down the infinite scroll into pages that serve as valuable landmarks for orientation and enable users to quickly navigate the content, as they can jump from one page to the next one.\n"
     },
     {
+      "id": "npm-audit-broken-by-design",
+      "title": "npm audit: Broken by Design",
+      "overview": "The way npm audit works is broken. Its rollout as a default after every npm install was rushed, inconsiderate, and inadequate for the front-end tooling..",
+      "categories": ["npm", "Open Source", "Tooling"],
+      "author": {
+        "name": "Dan Abramov",
+        "avatarUrl": "/assets/avatars/dan-abramov-avatar.png",
+      },
+      "publishDate": "2021-07-12",
+      "heroImage": {
+        "url": "url",
+        "altText": "alt text",
+        "caption": "caption"
+      },
+      "body": "Finally, if there is no way to gracefully upgrade the tree, you could try npm audit fix --force. This is supposed to be used if database-layer doesn’t accept the new version of network-utility and also doesn’t release an update to accept it. So you’re kind of taking matters in your own hands, potentially risking breaking changes. Seems like a reasonable option to have.\nThis is how npm audit is supposed to work in theory.\mAs someone wise said, in theory there is no difference between theory and practice. But in practice there is. And that’s where all the fun starts.\nWhy is npm audit broken?\nLet’s see how this works in practice. I’ll use Create React App for my testing.\nIf you’re not familiar with it, it’s an integration facade that combines multiple other tools, including Babel, webpack, TypeScript, ESLint, PostCSS, Terser, and others. Create React App takes your JavaScript source code and converts it into a static HTML+JS+CSS folder. Notably, it does not produce a Node.js app.\nLet’s create a new project!"
+    },
+    {
       "id": "a-guide-to-using-user-experience-research-methods",
       "title": "A Guide to Using User-Experience Research Methods",
       "overview": "Modern day UX research methods answer a wide range of questions. To help you know when to use which user research method, each of 20 methods is mapped across 3 dimensions and over time within a typical product-development process.",
       "categories": ["Research Methods", "User Testing", "Strategy"],
       "author": {
         "name": "Kelley Gordon",
-        "avatar": {
-          "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-          "alt": "Kelley Gordon's avatar"
-        }
+        "avatarUrl": "/assets/avatars/kelley-gordon-avatar.png",
       },
       "publishDate": "2021-11-06",
       "heroImage": {
@@ -64,23 +73,17 @@
   "users": [
     {
       "id": "acooper@landkit.blog",
-      "password": "password",
+      "password": "puaHv704pNqB=rQs",
       "name": "Alice Cooper",
-      "avatar": {
-        "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-        "alt": "Alice Cooper's avatar"
-      },
-      "favoriteArticles": [1, 2]
+      "avatarUrl": "/assets/avatars/alice-cooper-avatar.png",
+      "favoriteArticles": ["should-I-work-remotely-or-will-it-put-a-strain-on-my-long-term-career", "infinite-scrolling-when-to-use-it-when-to-avoid-it"]
     },
     {
       "id": "kgordon@landkit.blog",
-      "password": "password",
+      "password": "DK5zmJz3RicZ0ts=",
       "name": "Kelley Gordon",
-      "avatar": {
-        "url": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50",
-        "alt": "Kelley Gordon's avatar"
-      },
-      "favoriteArticles": [2, 3, 4]
+      "avatarUrl": "/assets/avatars/kelley-gordon-avatar.png",
+      "favoriteArticles": ["npm-audit-broken-by-design", "a-guide-to-using-user-experience-research-methods"]
     }
   ]
 }

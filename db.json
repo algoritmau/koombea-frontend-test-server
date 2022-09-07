@@ -140,7 +140,7 @@
     {
       "id": "uiviewrepresentable-explained-to-host-uiview-instances-in-swiftui",
       "title": "UIViewRepresentable explained to host UIView instances in SwiftUI",
-      "overview": "Adopting the UIViewRepresentable protocol allows you to host UIView instances in SwiftUI. Your SwiftUI code is converted to UIKit views behind the scenes.",
+      "overview": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
       "categories": ["SwiftUI", "iOS"],
       "author": {
         "name": "Antoine Lee",
@@ -157,7 +157,7 @@
     {
       "id": "oslog-and-unified-logging-as-recommended-by-apple",
       "title": "OSLog and Unified logging as recommended by Apple",
-      "overview": "OSLog as a replacement of print and NSLog is the recommended way of logging by Apple. It’s a bit harder to write, but it comes with some nice advantages compared to it’s better-known friends.",
+      "overview": "Infinite scrolling minimizes interaction costs and increases user engagement, but it isn’t a good fit for every website. For some, pagination or a Load More button will be a better solution.",
       "categories": ["Debugging", "OSLog", "Swift"],
       "author": {
         "name": "Antoine Lee",

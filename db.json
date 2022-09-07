@@ -11,11 +11,11 @@
       },
       "publishDate": "2020-01-01",
       "heroImage": {
-        "url": "url",
-        "altText": "alt text",
-        "caption": "caption"
+        "url": "/assets/images/remote-work-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
       },
-      "body": "post body"
+      "body": "Omnis accusamus quis facilis eligendi molestiae. Aut sint fugiat repellendus est. Ut consequatur nemo minima est officiis omnis a magnam voluptas. Voluptatem quam omnis consequuntur unde.\nPorro molestias eos. Velit provident quis vero. Id pariatur hic rerum itaque aliquam aut voluptatum sint. Maxime dolor laboriosam sunt qui qui temporibus et. In sed et repellat ad voluptatum dolores.\nPerspiciatis rerum ullam ut. Voluptatem ex enim minus inventore quasi quia. Omnis odit et quisquam. Doloribus quia quia omnis sint quo aut aut quo et."
     },
     {
       "id": "infinite-scrolling-when-to-use-it-when-to-avoid-it",
@@ -29,16 +29,16 @@
       "publishDate": "2020-03-21",
       "alt": "Jane Pickford's avatar",
       "heroImage": {
-        "url": "url",
-        "altText": "alt text",
-        "caption": "caption"
+        "url": "/assets/images/infinite-scrolling-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
       },
       "body": "Infinite scrolling is a listing-page design approach which loads content continuously as the user scrolls down. It eliminates the need for pagination  — breaking content up into multiple pages.\nSince its invention in 2006, infinite scrolling experienced a steep growth in popularity. Today, it is mostly used on websites and apps with a flat structure, where content streams constantly and is equally relevant to the user — for example, social-media sites (e.g., TikTok, Instagram, Twitter) but also news or ecommerce websites (e.g., Apple News, Nike.com). What are the benefits and limitations of infinite scrolling?\nSince its invention, some variations to classic infinite scrolling (as described above) have been developed. One variant requires the user to explicitly press a Load More or See More button to see more content added to the bottom of a page. Another variant breaks down the infinite scroll into pages that serve as valuable landmarks for orientation and enable users to quickly navigate the content, as they can jump from one page to the next one.\n"
     },
     {
       "id": "npm-audit-broken-by-design",
       "title": "npm audit: Broken by Design",
-      "overview": "The way npm audit works is broken. Its rollout as a default after every npm install was rushed, inconsiderate, and inadequate for the front-end tooling..",
+      "overview": "The way npm audit works is broken. Its rollout as a default after every npm install was rushed, inconsiderate, and inadequate for the front-end tooling.",
       "categories": ["npm", "Open Source", "Tooling"],
       "author": {
         "name": "Dan Abramov",
@@ -46,9 +46,9 @@
       },
       "publishDate": "2021-07-12",
       "heroImage": {
-        "url": "url",
-        "altText": "alt text",
-        "caption": "caption"
+        "url": "/assets/images/npm-audit-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
       },
       "body": "Finally, if there is no way to gracefully upgrade the tree, you could try npm audit fix --force. This is supposed to be used if database-layer doesn’t accept the new version of network-utility and also doesn’t release an update to accept it. So you’re kind of taking matters in your own hands, potentially risking breaking changes. Seems like a reasonable option to have.\nThis is how npm audit is supposed to work in theory.\nAs someone wise said, in theory there is no difference between theory and practice. But in practice there is. And that’s where all the fun starts.\nWhy is npm audit broken?\nLet’s see how this works in practice. I’ll use Create React App for my testing.\nIf you’re not familiar with it, it’s an integration facade that combines multiple other tools, including Babel, webpack, TypeScript, ESLint, PostCSS, Terser, and others. Create React App takes your JavaScript source code and converts it into a static HTML+JS+CSS folder. Notably, it does not produce a Node.js app.\nLet’s create a new project!"
     },
@@ -63,11 +63,147 @@
       },
       "publishDate": "2021-11-06",
       "heroImage": {
-        "url": "url",
-        "altText": "alt text",
-        "caption": "caption"
+        "url": "/assets/images/ux-research-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
       },
       "body": "Infinite scrolling is a listing-page design approach which loads content continuously as the user scrolls down. It eliminates the need for pagination  — breaking content up into multiple pages.\nSince its invention in 2006, infinite scrolling experienced a steep growth in popularity. Today, it is mostly used on websites and apps with a flat structure, where content streams constantly and is equally relevant to the user — for example, social-media sites (e.g., TikTok, Instagram, Twitter) but also news or ecommerce websites (e.g., Apple News, Nike.com). What are the benefits and limitations of infinite scrolling?\nSince its invention, some variations to classic infinite scrolling (as described above) have been developed. One variant requires the user to explicitly press a Load More or See More button to see more content added to the bottom of a page. Another variant breaks down the infinite scroll into pages that serve as valuable landmarks for orientation and enable users to quickly navigate the content, as they can jump from one page to the next one.\n"
+    },
+    {
+      "id": "how-to-use-react-context-effectively",
+      "title": "How to use React Context effectively",
+      "overview": "In Application State Management with React, I talk about how using a mix of local state and React Context can help you manage state well in any React application.",
+      "categories": ["React.js", "Performance"],
+      "author": {
+        "name": "Kent C. Dodds",
+        "avatarUrl": "/assets/avatars/kent-c-dodds-avatar.png"
+      },
+      "publishDate": "2021-06-05",
+      "heroImage": {
+        "url": "/assets/images/react-context-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "None of us likes runtime errors, so your knee-jerk reaction may be to add a default value to avoid the runtime error. However, what use would the context be if it didn't have an actual value? If it's just using the default value that's been provided, then it can't really do much good. 99% of the time that you're going to be creating and using context in your application, you want your context consumers (those using useContext) to be rendered within a provider which can provide a useful value.\nThe React docs suggest that providing a default value \"can be helpful in testing components in isolation without wrapping them.\" While it's true that it allows you to do this, I disagree that it's better than wrapping your components with the necessary context. Remember that every time you do something in your test that you don't do in your application, you reduce the amount of confidence that test can give you. There are reasons to do this, but that's not one of them.\nThis is a contrived example that I'm intentionally over-engineering to show you what a more real-world scenario would be like. This does not mean it has to be this complicated every time! Feel free to use useState if that suits your scenario. In addition, some providers are going to be short and simple like this, and others are going to be MUCH more involved with many hooks.\nThis is a great question. What happens if you have a situation where you need to make some asynchronous request and you need to dispatch multiple things over the course of that request? Sure you could do it at the calling component, but manually wiring all of that together for every component that needs to do something like that would be pretty annoying."
+    },
+    {
+      "id": "get-a-catch-block-error-message-with-typeScript",
+      "title": "Get a catch block error message with TypeScript",
+      "overview": "Seriously, you can throw anything of any type. So that's easy right? We could just add a type annotation for the error to say this code will only throw an error right?",
+      "categories": ["TypeScript", "Performance"],
+      "author": {
+        "name": "Kent C. Dodds",
+        "avatarUrl": "/assets/avatars/kent-c-dodds-avatar.png"
+      },
+      "publishDate": "2021-10-28",
+      "heroImage": {
+        "url": "/assets/images/catch-block-error-ts-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "That reportError call there isn't happy. Specifically it's the error.message bit. It's because (as of recently) TypeScript defaults our error type to unknown. Which is truly what it is! In the world of errors, there's not much guarantees you can offer about the types of errors that are thrown. In fact, this is the same reason you can't provide the type for the .catch(error => {}) of a promise rejection with the promise generic (Promise<ResolvedValue, NopeYouCantProvideARejectedValueType>). In fact, it might not even be an error that's thrown at all. It could be just about anything.\nThe reason for this is because even though in our code it looks like there's no way anything else could be thrown, JavaScript is kinda funny and so its perfectly possible for a third party library to do something funky like monkey-patching the error constructor to throw something different.\nI think the key takeaway here is to remember that while TypeScript has its funny bits, don't dismiss a compilation error or warning from TypeScript just because you think it's impossible or whatever. Most of the time it absolutely is possible for the unexpected to happen and TypeScript does a pretty good job of forcing you to handle those unlikely cases... And you'll probably find they're not as unlikely as you think."
+    },
+    {
+      "id": "how-remix-makes-css-clashes-predictable",
+      "title": "How Remix makes CSS clashes predictable",
+      "overview": "CSS can be challenging at scale. This fact is evident based on the number of solutions people have come up with to make it easier to deal with.",
+      "categories": ["Remix", "CSS", "Performance"],
+      "author": {
+        "name": "Kent C. Dodds",
+        "avatarUrl": "/assets/avatars/kent-c-dodds-avatar.png"
+      },
+      "publishDate": "2021-10-13",
+      "heroImage": {
+        "url": "/assets/images/remix-css-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "This is due to the \"C\" part of CSS: \"Cascading Style Sheets\". I've been doing this web dev thing since around 2013. I've been through just about every solution for this CSS challenge you can think of. From regular CSS with good naming conventions, through pre-processors, css-modules, css-in-js, and utility css classes..\nIn my post How I built a modern website in 2021, I explain that this website uses Tailwind CSS for styling. I couldn't be happier with this because it makes it so easy for me to have a maintainable and consistent styling solution all in around 12kbs of CSS for the whole site.\nSo my site isn't really taking advantage of the feature I'm about to show you, but I want to tell you all about it anyway because it's a brilliantly simple feature unique to Remix that has a profound impact on developer productivity and performance.\nOk, so let's say that on my About Me page, I wanted to customize the styling of something. For example, what if I wanted to make all the h1s blue? If you wanted to do that on your own about page, how would you do it? If you're using CSS-in-JS, let's imagine for a moment that you're not."
+    },
+    {
+      "id": "faster-storekit-testing-by-syncing-in-app-purchase-products",
+      "title": "Faster StoreKit testing by syncing in-app purchase products",
+      "overview": "StoreKit testing in the Simulator allows you to speed up testing in-app purchases for your app. You can test in-app purchases in Xcode by generating a StoreKit configuration file.",
+      "categories": ["SwiftUI", "StoreKit", "Xcode"],
+      "author": {
+        "name": "Antoine Lee",
+        "avatarUrl": "/assets/avatars/antoine-lee-avatar.png"
+      },
+      "publishDate": "2022-08-15",
+      "heroImage": {
+        "url": "/assets/images/faster-storekit-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "A cumbersome process of using StoreKit configuration files has been to ensure using up-to-date products for your app. I’ve been testing Stock Analyzer for a while with introduction offerings that no longer existed, potentially trying use cases in the app that won’t happen in production. It’s essential to keep your configuration files up to date, and I’ll explain how you can do so using a new feature in Xcode 14.\nBy syncing a StoreKit configuration file with App Store Connect, you’ll allow Xcode to fetch In-App Purchase data automatically. You’re no longer required to manually ensure filling in the correct data or copy the bundle identifier for each product your app offers. You’ll significantly benefit from this feature if your app contains many different products.\nStoreKit testing using the newly generated configuration file ensures that you’re testing the latest version of your In-App Purchases. You can update your configuration file whenever you make changes to the products offering, ensuring your testing configuration stays up-to-date.\nUnfortunately, it’s not possible to enable syncing for an existing StoreKit Configuration file. Instead, you’ll have to generate a new file for StoreKit Testing. If needed, you can decide to keep your old configuration files for specific testing scenarios supported by these files."
+    },
+    {
+      "id": "uiviewrepresentable-explained-to-host-uiview-instances-in-swiftui",
+      "title": "UIViewRepresentable explained to host UIView instances in SwiftUI",
+      "overview": "Adopting the UIViewRepresentable protocol allows you to host UIView instances in SwiftUI. Your SwiftUI code is converted to UIKit views behind the scenes.",
+      "categories": ["SwiftUI", "iOS"],
+      "author": {
+        "name": "Antoine Lee",
+        "avatarUrl": "/assets/avatars/antoine-lee-avatar.png"
+      },
+      "publishDate": "2022-07-26",
+      "heroImage": {
+        "url": "/assets/images/uiviewrepresentable-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "SwiftUI requires you to declare the view representation, but the underlying SwiftUI implementation will optimize how final views are drawn on the screen. You can use a similar technique to make SwiftUI views available in UIKit views by implementing the UIHostingController.\nBThe UIViewRepresentable protocol allows you to adapt to the mechanism of SwiftUI declarative views and creates a bridge between UIKit and SwiftUI. Whether it’s a custom UIView created by yourself or a UIView provided by Apple that isn’t available in UIKit yet: you can make them available in SwiftUI. In UIKit, you use the UIHostingController, which acts like a SwiftUI host for your views.\nWhile picking your minimum iOS version to support, you might have opened the door to fully adopting SwiftUI after dropping iOS 12. You don’t want to rewrite all your existing UIKit views immediately, so you can smoothen the process of migrating to SwiftUI by making your custom views available in SwiftUI.\nWhen migrating your projects to SwiftUI, you probably have a lot of existing code that you don’t want to throw away but rather use in our newly built views. I’ve earlier explained how you can use Xcode Previews with existing UIKit views, which we’ll take to the next level in this post by adapting existing UIKit views in SwiftUI using the UIViewPresentable protocol."
+    },
+    {
+      "id": "oslog-and-unified-logging-as-recommended-by-apple",
+      "title": "OSLog and Unified logging as recommended by Apple",
+      "overview": "OSLog as a replacement of print and NSLog is the recommended way of logging by Apple. It’s a bit harder to write, but it comes with some nice advantages compared to it’s better-known friends.",
+      "categories": ["Debugging", "OSLog", "Swift"],
+      "author": {
+        "name": "Antoine Lee",
+        "avatarUrl": "/assets/avatars/antoine-lee-avatar.png"
+      },
+      "publishDate": "2022-07-22",
+      "heroImage": {
+        "url": "/assets/images/oslog-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "By writing a small extension you make it fairly easy to replace your print statements. Using the Console app in combination with your logs can help you debug issues in a more efficient way. OSLog has a low-performance overhead and is archived on the device for later retrieval. These are two of the advantages of using OSLog instead of print statements.\nThe OSLog API requires to pass in an OSLogType which can be used to automatically send messages at the appropriate level. A log type controls the conditions under which a message should be logged and is another way of filtering in the Console app.\nWWDC 2020 introduced improved APIs that make it even easier to work with OSLog. The APIs look much more similar to popular frameworks like CocoaLumberjack and are better aligned with other Swift APIs.\nAll previous covered explanations in this blogpost still apply and the code examples are still working on iOS 14. However, if you’re supporting iOS 14 and up you might want to go with the improved APIs as they look nicer and come with a few new features."
+    },
+    {
+      "id": "measuring-app-performance-in-swift",
+      "title": "Measuring app performance in Swift",
+      "overview": "The Unified Logging System is a great way to build a proper logging system allowing you to understand different exceptional cases happening in your app. But it is not limited only to logging.",
+      "categories": ["Swift", "Performance"],
+      "author": {
+        "name": "Majid Jabrayilov",
+        "avatarUrl": "/assets/avatars/majid-jabrayilov-avatar.png"
+      },
+      "publishDate": "2022-07-22",
+      "heroImage": {
+        "url": "/assets/images/swift-app-performance-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "First, we need to import the OSLog module that contains the Unified Logging System API. Then we create an instance of the OSSignposter type that we will use to track event intervals. We use the makeSignpostID function on the OSSignposter type to create a unique event identifier.\nNow we can use the identifier to start monitoring an event with a particular message using the beginInterval function. This function returns a state of the interval that we will use to associate starting and finishing points of an event. As the last step, we call the endInterval function by passing a message and the interval state.\nLet’s start with the simplest one. While debugging your app via Xcode, you can build the app for profiling by pressing CMD + I. In the opened Instruments app, choose the Logging template. It contains both logs and signposts. Now run the app by pressing the record button and start interacting and producing events in your app.\nToday we learned how to use the Unified Logging System to measure and collect performance data of our apps. Understanding the performance of particular events is crucial for building a great user experience."
+    },
+    {
+      "id": "ux-strategy-definition-and-components",
+      "title": "UX Strategy: Definition and Components",
+      "overview": "A UX strategy is a 3-part plan that fosters shared understanding of direction toward achieving goals before designing and implementing solutions. It serves to intentionally guide the prioritization and execution of UX work over time.",
+      "categories": ["Strategy", "UX Design"],
+      "author": {
+        "name": "Sarah Gibbons",
+        "avatarUrl": "/assets/avatars/sarah-gibbons-avatar.png"
+      },
+      "publishDate": "2022-03-20",
+      "heroImage": {
+        "url": "/assets/images/ux-strategy-hero-image.png",
+        "altText": "This is an alt text for an image.",
+        "caption": "This is a caption for the image shown above."
+      },
+      "body": "To inform our research on vision and strategy in UX, we surveyed 30 UX professionals in a variety of roles, to learn about the challenges they face in setting direction and planning the execution of mid- to long-term user-experience work. Thematic analysis of the responses revealed the following common issues.\nUX practitioners often prioritize mastering practical skills such as UI design, prototyping and wireframing, journey mapping, running user research, and reporting findings. While these skills are important, in order for UX to lead and influence at a higher level, practitioners must also grow their strategic skills. Many practitioners’ strategic skills aren’t as strong as their practical skills, as they involve triangulating many inputs and sources of information to create a high-level plan for an improved user experience.\nScopes for a UX strategy can range to cover a single product, service, or feature; multiple products and services; or entire organizations. Regardless, a strong UX strategy ensures that user-centered insights are integrated with the business strategy.\nA UX strategy is a business strategy — end-users pay for products and services that make organizations profitable. Unfortunately, even in 2022, many organizations still feel that they know best and don’t need to conduct user research to seek a deeper understanding of user needs. With the experience economy growing ever more important for long-term competitive advantage, these companies are sure to see declines in the coming years."
     }
   ],
   "users": [
